@@ -26,7 +26,7 @@ body {
   color: var(--text);
   background:
     linear-gradient(rgba(244, 239, 228, 0.92), rgba(238, 233, 221, 0.96)),
-    url("../images/pink_house.png") top center / cover fixed no-repeat,
+    url("../images/pink_house.webp") top center / cover fixed no-repeat,
     var(--bg);
   min-height: 100vh;
   overflow-x: hidden;
@@ -272,7 +272,7 @@ main > .section:not(.hero)::after {
 }
 
 .background {
-  background-image: url("../images/pink_house.png");
+  background-image: url("../images/pink_house.webp");
   background-size: cover;
   background-position: var(--parallax-x) var(--parallax-y);
   background-repeat: no-repeat;
